@@ -13,4 +13,5 @@ systemctl enable fail2ban;
 systemctl restart php7.3-fpm;
 systemctl restart php7.4-fpm;
 systemctl restart fail2ban;
+cat /var/log/fail2ban.log;
 rm up.sh;
